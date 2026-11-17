@@ -6,7 +6,7 @@ dans le terminal : pip install earthengine-api
 dans le terminal : earthengine authenticate
 créer un nouveau projet et activer l'API earthengine et bien indiquer un projet non-commerciale
 '''
-
+import os
 import ee
 import rasterio
 from rasterio.warp import transform_bounds
